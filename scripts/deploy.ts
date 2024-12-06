@@ -65,5 +65,5 @@ console.log(`zkApp Address: ${zkAppAccount.toBase58()}`);
 console.log(`zkApp deadline: ${zkApp.getDeadline().toString()}`);
 console.log(`zkApp minimumInvestment: ${zkApp.getMinimumInvestment().toString()}`);
 console.log(`zkApp hardCap: ${zkApp.getHardCap().toString()}`);
-console.log(`zkApp investors: ${zkApp.getInvestor().toString()}`);
+console.log(`zkApp investors: ${zkApp.getInvestor().toBase58()}`);
 console.log(`zkApp balance: ${zkApp.account.balance.get().toString()}`);
